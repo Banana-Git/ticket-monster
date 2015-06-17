@@ -1,3 +1,7 @@
 some content
 
 ... more content.
+
+-> kein neuer Jenkins Build, wenn Aenderung auf GitHub.
+
+
