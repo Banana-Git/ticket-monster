@@ -1,2 +1,5 @@
 FROM tutum/jboss:as7
-ADD ticket-monster.war /jboss-as-7.1.1.Final/standalone/deployments/
+
+WORKDIR /var/lib/jenkins/workspace/ticket-monster_2.7.0
+
+ADD demo/target/ticket-monster.war /jboss-as-7.1.1.Final/standalone/deployments/
